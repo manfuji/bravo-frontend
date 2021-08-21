@@ -21,7 +21,7 @@ function Card({ Picture, title, desc, price, id }) {
           <button className="bg-red-700 text-white  rounded-full mt-0.5 py-2 px-6 hover:bg-red-600">
             <a
               className="text-white no-underline"
-              href="https://wa.me/233543340697"
+              href="https://wa.me/233247130081"
             >
               {" "}
               ORDER

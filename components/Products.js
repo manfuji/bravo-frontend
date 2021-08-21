@@ -17,7 +17,7 @@ function Products() {
   const product = data.post;
   return (
     <div>
-      <div className="flex scrollbar-hide overflow-x-scroll ml-20">
+      <div className="flex scrollbar-hide overflow-x-scroll ml-6 md:ml-10 lg:ml-20">
         {product.map((pro) => (
           <Product
             key={pro.id}

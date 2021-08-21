@@ -33,7 +33,13 @@ function SingleProduct({
             industry.{" "}
           </p>
           <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
-            ORDER
+            <a
+              className="text-white no-underline"
+              href="https://wa.me/233247130081"
+            >
+              {" "}
+              ORDER
+            </a>
           </button>
         </div>
       </div>
