@@ -19,6 +19,9 @@
 
 /node_modules
 /backend
+
+/models
+
 /.vscode/
 # misc
 .DS_Store
