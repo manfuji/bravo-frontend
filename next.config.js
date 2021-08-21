@@ -5,6 +5,6 @@ module.exports = {
       "mongodb+srv://fuji:6689511@cluster0.4s7si.mongodb.net/bravo?retryWrites=true&w=majority",
   },
   images: {
-    domains: ["localhost"],
+    domains: ["localhost", "bravosfood.pythonanywhere.com"],
   },
 };

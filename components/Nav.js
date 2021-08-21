@@ -6,7 +6,7 @@ function Nav() {
   const [data, getData] = useState({ post: [] });
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/slide/")
+      .get("https://bravosfood.pythonanywhere.com/api/slide/")
       .then((res) => {
         getData({
           post: res.data,

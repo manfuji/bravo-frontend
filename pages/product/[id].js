@@ -41,7 +41,9 @@ function SingleProduct({
   );
 }
 SingleProduct.getInitialProps = async ({ query }) => {
-  const res = await fetch(`http://localhost:8000/api/product/${query.id}`);
+  const res = await fetch(
+    `https://bravosfood.pythonanywhere.com/api/product/${query.id}`
+  );
   const pro = res.json();
   return pro;
 };

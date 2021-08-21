@@ -6,7 +6,7 @@ function Products() {
   const [data, getData] = useState({ post: [] });
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/products/")
+      .get("https://bravosfood.pythonanywhere.com/api/products/")
       .then((res) => {
         getData({
           post: res.data,

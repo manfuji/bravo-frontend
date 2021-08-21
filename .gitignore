@@ -16,6 +16,7 @@
 /build
 #backend exclusive
 /middleware
+
 /node_modules
 /backend
 /.vscode/
