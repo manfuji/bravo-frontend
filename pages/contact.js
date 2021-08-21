@@ -42,19 +42,19 @@ function Contact() {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="h-8 w-24 md:w-80 md:h-10 rounded-md outline-none px-2"
+                  className="h-8 w-52 md:w-80 md:h-10 rounded-md outline-none px-2"
                 />
                 <input
                   type="email"
                   placeholder="Email"
-                  className="h-8 w-24 md:w-80 md:h-10 rounded-md outline-none px-2"
+                  className="h-8 w-52 md:w-80 md:h-10 rounded-md outline-none px-2"
                 />
                 <input
                   type="text"
                   placeholder="message"
-                  className="h-14 w-24 md:w-80 md:h-14 rounded-md outline-none "
+                  className="h-14 w-52 md:w-80 md:h-14 rounded-md outline-none "
                 />
-                <button className="py-3 px-28 rounded-md bg-red-600 text-white hover:bg-red-800 text-xl hover:text-2xl font-semibold">
+                <button className="py-3 px-20 rounded-md bg-red-600 text-white hover:bg-red-800 text-xl hover:text-2xl font-semibold">
                   Submit
                 </button>
               </form>
