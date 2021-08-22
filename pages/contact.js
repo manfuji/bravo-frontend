@@ -27,6 +27,8 @@ function Contact() {
       .post("https://bravosfood.pythonanywhere.com/api/message/", data, config)
       .then((res) => {
         alert("Submitted successfully");
+        (data.name = ""), (data.Email = ""), (data.message = "");
+
       })
       .catch((err) => alert("message not sent"));
     console.log(data);
