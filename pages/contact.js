@@ -95,7 +95,7 @@ function Contact() {
                   onChange={onChange}
                   type="text"
                   placeholder="message"
-                  className="h-14 w-52 md:w-80 md:h-14 rounded-md outline-none "
+                  className="h-14 w-52 md:w-80 md:h-14 rounded-md outline-none px-2 "
                 />
                 <button className="py-3 px-20 rounded-md bg-red-600 text-white hover:bg-red-800 text-xl hover:text-2xl font-semibold">
                   Submit
