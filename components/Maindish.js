@@ -15,10 +15,7 @@ function Maindish() {
           <div className=" space-y-1">
             {" "}
             <button className="px-8 py-2 rounded-md font-sans bg-red-700 hover:text-lg shadow-2xl">
-              <a
-                className="text-white no-underline"
-                href="https://wa.me/233545992182"
-              >
+              <a className="text-white no-underline" href="tel:233247130081">
                 Order Now
               </a>
             </button>

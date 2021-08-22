@@ -16,16 +16,16 @@ function Footer() {
             </ul>
           </div>
           <div className="flex flex-col justify-evenly ml-5">
-            <h1 className="font-semibold text-lg md:text-2xl">Our Services </h1>
+            <h1 className="font-semibold text-lg md:text-2xl text-center">
+              Our Services{" "}
+            </h1>
             <ul>
               <li> We do instant delivery services. </li>
-              <li> We take order for large Occasions like:</li>
-              <li>1.Wedding </li>
-              <li>2.Engagements</li>
-              <li>3.Outdooring </li>
-              <li>4.Executive Meetings</li>
-              <li>5.Dinner Services</li>
-              <li>6.Party</li>
+              <li>
+                {" "}
+                We take order for large Occasions like: 1.Wedding 2.Engagements
+                3.Outdooring 4.Executive Meetings 5.Dinner Services
+              </li>
             </ul>
           </div>
         </div>

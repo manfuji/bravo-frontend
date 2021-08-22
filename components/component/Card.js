@@ -18,15 +18,24 @@ function Card({ Picture, title, desc, price, id }) {
               </div>
             </a>
           </Link>
-          <button className="bg-red-700 text-white  rounded-full mt-0.5 py-2 px-6 hover:bg-red-600">
-            <a
-              className="text-white no-underline"
-              href="https://wa.me/233545992182"
-            >
-              {" "}
-              ORDER
-            </a>
-          </button>
+          <div className="flex flex-row justify-between p-0.5">
+            <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
+              <a
+                className="text-white no-underline"
+                href="https://wa.me/233545992182"
+              >
+                {" "}
+                ORDER
+              </a>
+            </button>
+
+            <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
+              <a className="text-white no-underline" href="tel:233247130081">
+                {" "}
+                CALL
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
