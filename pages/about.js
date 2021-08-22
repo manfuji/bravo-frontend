@@ -44,7 +44,7 @@ function About() {
           <h1 className="tracking-widest font-bold text-xl text-start mt-1 text-gray-600">
             Core Value
           </h1>
-          <p className="font-mono">
+          <p className=" font-sans">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum is simply dummy text of the printing and
             typesetting industry.

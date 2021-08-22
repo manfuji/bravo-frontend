@@ -9,7 +9,7 @@ function Card({ Picture, title, desc, price, id }) {
         <div>
           <Link href={`product/${id}`}>
             <a className="no-underline hover:text-blue-700 focus:text-blue-800">
-              <div className="grid grid-cols-2 mt-4 pl-2">
+              <div className="grid grid-cols-2 mt-4 pl-2 justify-between">
                 <p className="text-black">{title}</p>
                 <p className="tracking-thin font-bold text-red-700">{price}</p>
               </div>
@@ -21,7 +21,7 @@ function Card({ Picture, title, desc, price, id }) {
           <button className="bg-red-700 text-white  rounded-full mt-0.5 py-2 px-6 hover:bg-red-600">
             <a
               className="text-white no-underline"
-              href="https://wa.me/233247130081"
+              href="https://wa.me/233545992182"
             >
               {" "}
               ORDER

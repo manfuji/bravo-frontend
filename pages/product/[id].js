@@ -22,7 +22,7 @@ function SingleProduct({
             {Product_name}
           </p>
           <div className="flex justify-between font-bold text-red-600">
-            <p className="text-xl font-mono ">{description}</p>
+            <p className="text-xl font-sans ">{description}</p>
             <p className="text-lg font-bold">
               {price}, {other_price}
             </p>
@@ -32,15 +32,24 @@ function SingleProduct({
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.{" "}
           </p>
-          <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
-            <a
-              className="text-white no-underline"
-              href="https://wa.me/233247130081"
-            >
-              {" "}
-              ORDER
-            </a>
-          </button>
+          <div className="flex flex-row justify-between">
+            <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
+              <a
+                className="text-white no-underline"
+                href="https://wa.me/233545992182"
+              >
+                {" "}
+                ORDER
+              </a>
+            </button>
+
+            <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
+              <a className="text-white no-underline" href="tel:233247130081">
+                {" "}
+                CALL
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
