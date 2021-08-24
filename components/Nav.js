@@ -18,10 +18,10 @@ function Nav() {
   console.log(slide);
   return (
     <div>
-      <div className="container-fluid mb-2">
-        <Carousel>
+      <div className="mb-1">
+        <Carousel fade>
           {slide.map((pro) => (
-            <Carousel.Item style={{ height: "20%" }}>
+            <Carousel.Item style={{ height: "20%", width: "100%" }}>
               <img
                 key={pro.id}
                 style={{ height: "20%" }}

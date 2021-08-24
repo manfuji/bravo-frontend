@@ -3,22 +3,19 @@ import Link from "next/link";
 function Card({ Picture, title, desc, price, id }) {
   return (
     <div>
-      <div className="relative h-90 w-64 bg-gray-100 text-justify m-2 ">
-        <Image src={Picture} className="h-44 w-44" width="360" height="300" />
-        <div className="p-1 absolute top-0 z-50"></div>
+      <div className="relative bg-gray-100 text-justify m-2 transform transition duration-100 hover:scale-110 ">
+        <div className="object-cover">
+          <Image src={Picture} className=" " width="350" height="300" />
+        </div>
         <div>
-          <Link href={`product/${id}`}>
+          {/*}  <Link href={`product/${id}`}>
             <a className="no-underline hover:text-blue-700 focus:text-blue-800">
-              <div className="grid grid-cols-2 mt-4 pl-2 justify-between">
-                <p className="text-black">{title}</p>
-                <p className="tracking-thin font-bold text-red-700">{price}</p>
-              </div>
-              <div className="text-gray-800 z-40 font-thin overflow-y-auto p-1">
-                {desc}
+              <div className="flex flex-row mt-4 pl-2 justify-between">
+                <span className="text-black">{title}</span>
               </div>
             </a>
-          </Link>
-          <div className="flex flex-row justify-between p-0.5">
+  </Link> */}
+          <div className="flex flex-row justify-between p-2">
             <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
               <a
                 className="text-white no-underline"

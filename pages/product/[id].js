@@ -22,16 +22,10 @@ function SingleProduct({
             {Product_name}
           </p>
           <div className="flex justify-between font-bold text-red-600">
-            <p className="text-xl font-sans ">{description}</p>
-            <p className="text-lg font-bold">
-              {price}, {other_price}
-            </p>
+            <p className="text-lg font-sans ">{description}</p>
+            <p className="text-lg font-bold pl-2">{price}</p>
           </div>
-          <p>
-            <span className="tracking-widest font-bold">Food Tip:</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.{" "}
-          </p>
+
           <div className="flex flex-row justify-between">
             <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
               <a

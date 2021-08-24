@@ -31,19 +31,19 @@ export default function Home() {
         <Nav />
       </div>
       <main className="w-full">
-        <section className="pt-6">
+        {/*<section className="pt-6">
           <h1 className="font-bold text-4xl text-gray-900 text-center">
             {" "}
             Our Menu <FireIcon className="h-4 text-red-600 inline-block" />
           </h1>
           <Products />
-        </section>
+  </section> */}
         <section className="md:p-4 max-w-7xl">
           <Maindish />
         </section>
         <section className="p-4 md:ml-4 lg:ml-14 3xl:ml-4">
-          <h1 className="text-xl md:text-3xl font-extrabold text-gray-900 text-center">
-            Available Foods
+          <h1 className="text-2xl tracking-widest md:text-3xl font-extrabold text-gray-900 text-center">
+            OUR MENU
           </h1>
 
           <Cards />

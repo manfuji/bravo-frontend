@@ -16,7 +16,7 @@ function Cards() {
   }, []);
   const product = data.post;
   return (
-    <div className="flex flex-col sm:flex-row sm:place-items-center flex-wrap items-center">
+    <div className="flex flex-col sm:flex-row md:mx-auto flex-shrink flex-wrap items-center">
       {product.map((prod) => (
         // console.log(prod.Product_name)
         <div>

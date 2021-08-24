@@ -12,7 +12,7 @@ import Link from "next/link";
 function Navbar() {
   return (
     <div className="">
-      <div className=" sticky top-0 mb-1 flex justify-between p-3 h-22 items-center bg-gray-200">
+      <div className=" sticky top-0 mb-0.5 flex justify-between p-3 h-22 items-center bg-gray-200">
         <div>
           <Link href="/">
             <a>
