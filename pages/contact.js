@@ -50,7 +50,7 @@ function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen pb-12 w-full bg-gray-100 ">
-        <Navigation />
+        <Navbar />
         <div className="my-12 mx-16 space-y-2">
           <blockquote className="text-justify ml-4 md:m-16">
             <h1 className="text-xl sm:text-2xl tracking-widest font-mono font-bold text-gray-600">

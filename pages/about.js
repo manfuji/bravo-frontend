@@ -20,7 +20,7 @@ function About() {
       </Head>
       <div className="min-h-screen pb-12 w-full bg-gray-100 ">
         <div>
-          <Navigation />
+          <Navbar />
         </div>
         <div className=" relative h-[350px] w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto mb-12">
           <Image src={banner} layout="fill" objectFit="cover" />
