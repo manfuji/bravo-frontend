@@ -2,7 +2,7 @@ import axios from "axios";
 import Head from "next/head";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-
+import Navigation from "../components/Navigation";
 function Contact() {
   const initialState = {
     name: "",
@@ -28,7 +28,6 @@ function Contact() {
       .then((res) => {
         alert("Submitted successfully");
         (data.name = ""), (data.Email = ""), (data.message = "");
-
       })
       .catch((err) => alert("message not sent"));
     console.log(data);
@@ -51,7 +50,7 @@ function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen pb-12 w-full bg-gray-100 ">
-        <Navbar />
+        <Navigation />
         <div className="my-12 mx-16 space-y-2">
           <blockquote className="text-justify ml-4 md:m-16">
             <h1 className="text-xl sm:text-2xl tracking-widest font-mono font-bold text-gray-600">

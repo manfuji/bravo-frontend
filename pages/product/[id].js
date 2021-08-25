@@ -23,7 +23,7 @@ function SingleProduct({
           </p>
           <div className="flex justify-between font-bold text-red-600">
             <p className="text-lg font-sans ">{description}</p>
-            <p className="text-lg font-bold pl-2">{price}</p>
+            <p className="text-lg font-bold p-1">{price}</p>
           </div>
 
           <div className="flex flex-row justify-between">

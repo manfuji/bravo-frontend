@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import banner from "../public/locations/S1 (9).jpg";
-
+import Navigation from "../components/Navigation";
 function About() {
   return (
     <div>
@@ -20,7 +20,7 @@ function About() {
       </Head>
       <div className="min-h-screen pb-12 w-full bg-gray-100 ">
         <div>
-          <Navbar />
+          <Navigation />
         </div>
         <div className=" relative h-[350px] w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto mb-12">
           <Image src={banner} layout="fill" objectFit="cover" />

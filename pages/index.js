@@ -6,7 +6,7 @@ import Nav from "../components/Nav";
 import Maindish from "../components/Maindish";
 import Cards from "../components/Cards";
 import Footer from "../components/Footer";
-
+import Navigation from "../components/Navigation";
 export default function Home() {
   return (
     <div className="">
@@ -32,7 +32,8 @@ export default function Home() {
       </div>
       <main className="w-full">
         {/*<section className="pt-6">
-          <h1 className="font-bold text-4xl text-gray-900 text-center">
+      <Navigation />
+      <h1 className="font-bold text-4xl text-gray-900 text-center">
             {" "}
             Our Menu <FireIcon className="h-4 text-red-600 inline-block" />
           </h1>
