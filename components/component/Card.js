@@ -3,7 +3,7 @@ import Link from "next/link";
 function Card({ Picture, title, price, id }) {
   return (
     <div>
-      <div className="bg-gray-100 text-justify m-2 transform transition duration-100 hover:scale-110">
+      <div className="bg-gray-100 text-justify m-2 transform transition duration-100 hover:scale-110 shadow-md">
         <div className="object-contain">
           <Image src={Picture} className=" " width="350" height="300" />
         </div>

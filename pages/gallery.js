@@ -38,7 +38,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
+                <div className="flex flex-col flex-wrap md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
                   <div className="">
                     <Image src={S1} />
                   </div>
