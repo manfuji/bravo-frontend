@@ -1,22 +1,16 @@
 import Image from "next/image";
-import Food from "../public/pictures/Hero.jpg";
+import Food from "../public/JOOOBBS.jpg";
 function Maindish() {
   return (
     <div>
       <div className=" relative h-[350px] w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto ">
         <Image src={Food} layout="fill" objectFit="cover" />
-        <div className="absolute z-30 top-1/2 w-full items-center text-center text-white">
-          <p className="font-bold tracking-widest text-lg md:text-3xl">
-            Contact Us
-          </p>
-          <p className="text-white font-mono font-medium mb-1">
-            Contact Us to place Your Order
-          </p>
+        <div className="absolute z-30 lg:top-1/4 w-full lg:ml-10 top-3/4 text-white">
           <div className=" space-y-1">
             {" "}
-            <button className="px-8 py-2 rounded-md font-sans bg-red-700 hover:text-lg shadow-2xl">
-              <a className="text-white no-underline" href="tel:233247130081">
-                Order Now
+            <button className="px-8 py-2 rounded-md font-sans bg-red-700 hover:text-lg shadow-2xl transition duration-50 animate-bounce">
+              <a className="text-white no-underline" href="/Job">
+                APPLY NOW!
               </a>
             </button>
           </div>

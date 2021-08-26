@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import banner from "../public/locations/S1 (9).jpg";
-import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 function About() {
   return (
     <div>
@@ -26,49 +26,20 @@ function About() {
           <Image src={banner} layout="fill" objectFit="cover" />
         </div>
         <div className="my-5 mx-8 w-7xl sm:mx-16 ">
-          <h1 className="tracking-widest font-bold text-2xl text-center text-gray-600">
-            Brief History
+          <h1 className="tracking-widest font-extrabold text-3xl text-center text-gray-900">
+            About Us
           </h1>
-          <blockquote className="font-mono ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+          <blockquote className="font-semibold text-md mx-24">
+            Bravos Food (Golden Spoon Restaurants) are a class of Ultra-Modern
+            Restaurants with Executive Cocktail Bars (Personalized and Exclusive
+            Rooms), in Ho Municipality. The vison of Bravos is to create a
+            ‘’Culture of Excellence in Customer Service’’. We don’t just provide
+            ‘’Bravo Meals’’ but foster talent development of our Human Capital
+            who are our most important assets.
           </blockquote>
-
-          <h1 className="tracking-widest font-bold text-xl text-start mt-1 text-gray-600">
-            Core Value
-          </h1>
-          <p className=" font-sans">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.
-          </p>
-
-          <h1 className="tracking-widest font-bold text-xl text-start mt-1 text-gray-600">
-            Mission Statement
-          </h1>
-          <p className="font-mono">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.
-          </p>
-
-          <h1 className="tracking-widest font-bold text-xl text-start mt-1 text-gray-600">
-            Vission Statement
-          </h1>
-          <p className="font-mono">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.
-          </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

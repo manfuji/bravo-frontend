@@ -53,18 +53,15 @@ function Contact() {
         <Navbar />
         <div className="my-12 mx-16 space-y-2">
           <blockquote className="text-justify ml-4 md:m-16">
-            <h1 className="text-xl sm:text-2xl tracking-widest font-mono font-bold text-gray-600">
-              Contact Information
-            </h1>
-            <p className="text-lg text-gray-700 font-serif tracking-wider">
-              <h2>Email: Bravo@gmail.com</h2>
-              <h2>Phone: 0596011743 or 0247130081 or 0500856550</h2>
-
-              <h2>Address: p.o box 23232 Ho</h2>
+            <h1 className="text-gray-900">Contact Information</h1>
+            <p className=" text-gray-700 ">
+              <h2>Email: bravosfoodgh@gmail.com</h2>
+              <h2>Call: 0596011743 or 0247130081 or 0500856550</h2>
+              <h2>Whatsapp: +233545992182</h2>
             </p>
           </blockquote>
           <div className="items-center md:w-full md:justify-center">
-            <h1 className="tracking-wider mx-auto font-extrabold sm:text-center text-xl mb-3 ml-4 text-gray-700">
+            <h1 className="tracking-wider mx-auto font-extrabold sm:text-center mb-3 ml-4 text-gray-700">
               Send A Message
             </h1>
             <div className="flex flex-col md:flex-row">
@@ -78,7 +75,7 @@ function Contact() {
                   onChange={onChange}
                   type="text"
                   placeholder="Name"
-                  className="h-8 w-52 md:w-80 md:h-10 rounded-md outline-none px-2"
+                  className="h-8 w-52 md:w-80 md:h-10 rounded-md outline-none px-2 shadow-md"
                 />
                 <input
                   name="Email"
@@ -86,7 +83,7 @@ function Contact() {
                   onChange={onChange}
                   type="email"
                   placeholder="Email"
-                  className="h-8 w-52 md:w-80 md:h-10 rounded-md outline-none px-2"
+                  className="h-8 w-52 md:w-80 md:h-10 rounded-md outline-none px-2 shadow-md"
                 />
                 <input
                   name="message"
@@ -94,7 +91,7 @@ function Contact() {
                   onChange={onChange}
                   type="text"
                   placeholder="message"
-                  className="h-14 w-52 md:w-80 md:h-14 rounded-md outline-none px-2 "
+                  className="h-14 w-52 md:w-80 md:h-14 rounded-md outline-none px-2 shadow-md"
                 />
                 <button className="py-3 px-20 rounded-md bg-red-600 text-white hover:bg-red-800 text-xl hover:text-2xl font-semibold">
                   Submit

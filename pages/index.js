@@ -42,7 +42,7 @@ export default function Home() {
         <section className="md:p-4 max-w-7xl">
           <Maindish />
         </section>
-        <section className="p-4 md:ml-4 lg:ml-14 3xl:ml-4">
+        <section className="m-10">
           <h1 className="text-2xl tracking-widest md:text-3xl font-extrabold text-gray-900 text-center">
             OUR MENU
           </h1>

@@ -19,7 +19,7 @@ function Nav() {
   return (
     <div>
       <div className="mb-1">
-        <Carousel fade>
+        <Carousel fade prevLabel="" nextLabel="">
           {slide.map((pro) => (
             <Carousel.Item style={{ height: "20%", width: "100%" }}>
               <img

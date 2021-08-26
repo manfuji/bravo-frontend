@@ -29,63 +29,46 @@ function Location() {
       </Head>
       <div className="h-full w-full bg-gray-100 flex flex-col text-center pb-10">
         <Navbar />
-        <div className="mb-16 mt-12 p-4">
+        <div className="mb-4 mt-12 p-4 h-full max-w-2xl bg-gray-300 mx-auto">
           <div className="mb-4">
             <h1 className=" uppercase text-3xl font-extrabold tracking-widest text-black pb-6">
-              Locate us at
+              Locate us in Ho at:
             </h1>
             <h1 className=" uppercase text-xl font-extrabold tracking-widest text-red-600">
-              1st Floor, Ahoe Satellite Market Shopping Center And Top Floor
+              1st Floor, Ahoe Satellite Market Shopping Center
             </h1>
+            <p>
+              <b>Are operating hours are</b> <br />
+              Monday to Sunday from 10:00 AM to 10:00 PM <br />
+              <span className="font-bold text-lg text-gray-900">
+                For direction call: 0596011743 or 0247130081 or 0500856550
+              </span>
+            </p>
           </div>
           <div>
-            <div className="flex flex-col md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
-              <div className="">
-                <Image src={S1} />
-              </div>
-
-              <div className="">
-                <Image src={S3} />
-              </div>
-              <div className="">
-                <Image src={S4} />
-              </div>
-              <div className=" ">
-                <Image src={S2} />
-              </div>
-              <div className=" ">
-                <Image src={S5} />
-              </div>
-            </div>
+            <div className="flex flex-col md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto"></div>
           </div>
         </div>
 
-        <div className="mb-20 p-4">
+        <div className="mb-16 mt-12 p-4 h-full max-w-2xl bg-gray-300 mx-auto">
           <div className="mb-4">
-            <h1 className=" uppercase text-xl font-extrabold tracking-widest text-red-600">
-              Bayport Office,Opposite High Court, Adjacent to NHIS,Old Traffic
-              Light,Ho
+            <h1 className=" uppercase text-3xl font-extrabold tracking-widest text-black pb-6">
+              And Also in Ho at:
             </h1>
+            <h1 className=" uppercase text-xl font-extrabold tracking-widest text-red-600">
+              Top Floor Bayport Office,Opposite High Court, Adjacent to NHIS,Old
+              Traffic Light,Ho
+            </h1>
+            <p>
+              <b>Are operating hours are</b> <br />
+              Monday to Sunday from 10:00 AM to 10:00 PM <br />
+              <span className="font-bold text-lg text-gray-900">
+                For direction call: 0596011743 or 0247130081 or 0500856550
+              </span>
+            </p>
           </div>
           <div>
-            <div className="flex flex-col md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
-              <div className="">
-                <Image src={Sa} />
-              </div>
-
-              <div className="">
-                <Image src={Sb} />
-              </div>
-              <div className="">
-                <Image src={Sf} />
-              </div>
-              <div className=" ">
-                <Image src={Sc} />
-              </div>
-              <div className=" ">
-                <Image src={Sd} />
-              </div>
-            </div>
+            <div className="flex flex-col md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto"></div>
           </div>
         </div>
       </div>
