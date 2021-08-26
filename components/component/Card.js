@@ -11,7 +11,9 @@ function Card({ Picture, title, price, id }) {
           <Link href={`product/${id}`}>
             <a className="no-underline hover:text-blue-700 focus:text-blue-800">
               <div className="flex flex-col mt-4 pl-2 justify-between">
-                <span className="text-black">{title}</span>
+                <span className="text-black font-bold tracking-widest">
+                  {title}
+                </span>
                 <span className="text-lg font-bold text-red-700">{price}</span>
               </div>
             </a>
