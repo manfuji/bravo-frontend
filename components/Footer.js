@@ -19,11 +19,11 @@ function Footer() {
             <h1 className="font-semibold text-lg md:text-2xl text-center">
               Our Services{" "}
             </h1>
-            <ul>
+            <ul className="text-center capitalize ml-4">
               <li> We do instant delivery services. </li>
               <li>
                 {" "}
-                We take order for large Occasions like: 1.Wedding 2.Engagements
+                We take orders for large Occasions like: 1.Wedding 2.Engagements
                 3.Outdooring 4.Executive Meetings 5.Dinner Services
               </li>
             </ul>

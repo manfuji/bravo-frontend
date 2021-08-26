@@ -29,7 +29,7 @@ function About() {
           <h1 className="tracking-widest font-extrabold text-3xl text-center text-gray-900">
             About Us
           </h1>
-          <blockquote className="font-semibold text-md">
+          <blockquote className="font-semibold text-md max-w-4xl text-center mx-auto">
             Bravos Food (Golden Spoon Restaurants) are a class of Ultra-Modern
             Restaurants with Executive Cocktail Bars (Personalized and Exclusive
             Rooms), in Ho Municipality. The vison of Bravos is to create a
