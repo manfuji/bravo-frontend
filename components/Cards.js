@@ -6,8 +6,8 @@ function Cards() {
   const [data, getData] = useState({ post: [] });
   useEffect(() => {
     axios
-      // .get("https://bravosfood.pythonanywhere.com/api/product/")
-      .get("http://localhost:8000/api/product/")
+      .get("https://bravosfood.pythonanywhere.com/api/product/")
+      // .get("http://localhost:8000/api/product/")
       .then((res) => {
         getData({
           post: res.data,
