@@ -21,9 +21,13 @@ function SingleProduct({
           <p className="tracking-widest text-3xl font-extrabold ">
             {Product_name}
           </p>
-          <div className="flex justify-between font-bold text-red-600">
+          <div className="font-bold text-red-600">
             <p className="text-lg font-sans ">{description}</p>
-            <p className="text-lg font-bold p-1">{price}</p>
+          </div>
+          <div>
+            <p className="text-lg font-bold p-1 text-red-600">
+              {price},{other_price}
+            </p>
           </div>
 
           <div className="flex flex-row justify-between">

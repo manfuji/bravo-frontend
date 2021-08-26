@@ -38,7 +38,7 @@ function Location() {
               1st Floor, Ahoe Satellite Market Shopping Center
             </h1>
             <p>
-              <b>Are operating hours are</b> <br />
+              <b>Our operating hours are</b> <br />
               Monday to Sunday from 10:00 AM to 10:00 PM <br />
               <span className="font-bold text-lg text-gray-900">
                 For direction call: 0596011743 or 0247130081 or 0500856550
@@ -60,7 +60,7 @@ function Location() {
               Traffic Light,Ho
             </h1>
             <p>
-              <b>Are operating hours are</b> <br />
+              <b>Our operating hours are</b> <br />
               Monday to Sunday from 10:00 AM to 10:00 PM <br />
               <span className="font-bold text-lg text-gray-900">
                 For direction call: 0596011743 or 0247130081 or 0500856550
