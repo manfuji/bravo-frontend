@@ -23,8 +23,10 @@ function Footer() {
               <li> We do instant delivery services. </li>
               <li>
                 {" "}
-                We take orders for large Occasions like: 1.Wedding 2.Engagements
-                3.Outdooring 4.Executive Meetings 5.Dinner Services
+                We take orders for large Occasions like:
+                <br /> 1.Wedding 2.Engagements 3.Outdooring 4.Executive Meetings{" "}
+                <br />
+                5.Dinner Services
               </li>
             </ul>
           </div>
