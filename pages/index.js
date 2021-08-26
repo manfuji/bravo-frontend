@@ -11,19 +11,22 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>BRAVOS FOOD</title>
+        <title>Bravos food - Restaurant in Ho, Volta Region</title>
         <meta
           name="description"
           content="Bravos Food provide Healthy and Affordable foods to you anywhere just place an order"
         />
-        <meta
-          property="og:description"
-          content="Bravos Food provide affordable food service to everyone. If you do not know what to eat, just locate us and will will provide you quality and affordable meal"
-        />
         <meta property="og:title" content="Bravos Food is at your service" />
         <meta property="og:site_name" content="BRAVOS FOOD" />
-        <meta property="og:type" content="food" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content="Restaurant in Ho, Volta Region"
+        ></meta>
         <meta property="og:url" content="www.bravosfoodgh.com" />
+        <meta property="og:url" content="https://bravosfoodgh.com"></meta>
+        <link rel="canonical" href="https://bravosfoodgh.com" />
+        <meta name="format-detection" content="telephone=233247130081" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
@@ -34,7 +37,7 @@ export default function Home() {
         {/*<section className="pt-6">
       <Navigation />
       <h1 className="font-bold text-4xl text-gray-900 text-center">
-            {" "}
+            {" "
             Our Menu <FireIcon className="h-4 text-red-600 inline-block" />
           </h1>
           <Products />
