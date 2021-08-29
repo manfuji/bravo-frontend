@@ -3,7 +3,7 @@ import Food from "../public/JOOOBBS.jpg";
 function Maindish() {
   return (
     <div>
-      <div className=" relative h-[200px] md:h-[200px] w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto ">
+      <div className=" relative h-[200px] md:h-[350px] w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto ">
         <Image src={Food} layout="fill" objectFit="cover" />
         <div className="absolute z-30 lg:top-1/4 w-full lg:ml-10 top-3/4 text-white">
           <div className=" space-y-1">
