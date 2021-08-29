@@ -20,7 +20,7 @@ function Card({ Picture, title, price, id }) {
           </Link>
         </div>
         <div className="flex flex-row justify-between p-2">
-          <button className="bg-red-700 py-2 px-6 md:px-10 md:mx-auto items-center rounded-md text-white font-medium">
+          <button className="bg-red-700 py-2 px-6 md:px-10 mx-auto items-center rounded-md text-white font-medium">
             <a
               className="text-white no-underline"
               href="https://wa.me/233545992182"
@@ -30,12 +30,12 @@ function Card({ Picture, title, price, id }) {
             </a>
           </button>
 
-          <button className="bg-red-700 md:hidden py-2 px-6 items-center rounded-md text-white font-medium">
+          {/* <button className="bg-red-700 md:hidden py-2 px-6 items-center rounded-md text-white font-medium">
             <a className="text-white no-underline" href="tel:233247130081">
               {" "}
               CALL
             </a>
-          </button>
+  </button>*/}
         </div>
       </div>
     </div>
