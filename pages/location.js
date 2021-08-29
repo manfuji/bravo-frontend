@@ -10,6 +10,7 @@ import Sd from "../public/locations/S2 (4).jpg";
 import Sf from "../public/locations/S2 (12).jpg";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Image from "next/image";
 function Location() {
   return (
     <div>
