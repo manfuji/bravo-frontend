@@ -24,8 +24,8 @@ function Footer() {
               <li>
                 {" "}
                 We take orders for large Occasions like:
-                <br /> 1.Wedding 2.Engagements 3.Outdooring <br />
-                4.Executive Meetings 5.Dinner Services
+                <br /> 1.Wedding 2.Engagements 3.Naming ceremony <br />
+                4.Executive Meetings 5.Dinner Services,Funeral
               </li>
             </ul>
           </div>
