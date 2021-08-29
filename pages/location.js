@@ -28,7 +28,8 @@ function Location() {
             </h1>
             <p>
               <b>Our operating hours are</b> <br />
-              Monday to Sunday from 10:00 AM to 10:00 PM <br />
+              Monday to Friday from 8:30 AM to 11:00 PM, <br />
+              Saturday and Sunday from 11:00 AM to 11:00 PM <br />
               <span className="font-bold text-lg text-gray-900">
                 For direction call: 0596011743 or 0247130081 or 0500856550
               </span>
@@ -50,7 +51,8 @@ function Location() {
             </h1>
             <p>
               <b>Our operating hours are</b> <br />
-              Monday to Sunday from 10:00 AM to 10:00 PM <br />
+              Monday to Friday from 8:30 AM to 11:00 PM, <br />
+              Saturday and Sunday from 11:00 AM to 11:00 PM <br />
               <span className="font-bold text-lg text-gray-900">
                 For direction call: 0596011743 or 0247130081 or 0500856550
               </span>
