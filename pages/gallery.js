@@ -125,7 +125,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap px-4 md:min-w-full space-y-2 md:space-x-2 w-80">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80">
                   <div className=" ">
                     <Image src={e21} height="400" width="400" />
                   </div>
