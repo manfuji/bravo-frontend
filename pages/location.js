@@ -1,3 +1,13 @@
+import S1 from "../public/locations/S1 (1).jpg";
+import S2 from "../public/locations/S1 (9).jpg";
+import S3 from "../public/locations/S1 (3).jpg";
+import S4 from "../public/locations/S1 (4).jpg";
+import S5 from "../public/locations/S1 (8).jpg";
+import Sa from "../public/locations/S2 (1).jpg";
+import Sb from "../public/locations/S2 (2).jpg";
+import Sc from "../public/locations/S2 (13).jpg";
+import Sd from "../public/locations/S2 (4).jpg";
+import Sf from "../public/locations/S2 (12).jpg";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 function Location() {
@@ -60,6 +70,62 @@ function Location() {
           </div>
           <div>
             <div className="flex flex-col md:flex-row md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto"></div>
+          </div>
+        </div>
+
+        <div className="mb-16 mt-12 p-4">
+          <div className="mb-4">
+            <h1 className=" uppercase text-xl font-extrabold tracking-widest text-red-600">
+              Site 1
+            </h1>
+          </div>
+          <div>
+            <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14 ml-4">
+              <div className="">
+                <Image src={S1} height="300" width="400" />
+              </div>
+
+              <div className="">
+                <Image src={S3} height="300" width="400" />
+              </div>
+              <div className="">
+                <Image src={S4} height="300" width="400" />
+              </div>
+              <div className=" ">
+                <Image src={S2} height="300" width="400" />
+              </div>
+              <div className=" ">
+                <Image src={S5} height="300" width="400" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-20 p-4">
+          <div className="mb-4">
+            <h1 className=" uppercase text-xl font-extrabold tracking-widest text-red-600">
+              Site 2
+            </h1>
+          </div>
+          <div>
+            <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14 ml-4">
+              <div className="">
+                <Image src={Sa} height="300" width="400" />
+              </div>
+
+              <div className="">
+                <Image src={Sb} height="300" width="400" />
+              </div>
+              <div className="">
+                <Image src={Sf} height="300" width="400" />
+              </div>
+              <div className=" ">
+                <Image src={Sc} height="300" width="400" />
+              </div>
+              <div className=" ">
+                <Image src={Sd} height="300" width="400" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

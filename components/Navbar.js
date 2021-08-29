@@ -7,6 +7,7 @@ import {
   PhoneIcon,
   PhotographIcon,
   LocationMarkerIcon,
+  CalendarIcon,
 } from "@heroicons/react/solid";
 import Link from "next/link";
 function Navbar() {
@@ -32,7 +33,7 @@ function Navbar() {
           <Navlist Icon={IdentificationIcon} name="About" link="/about" />
           <Navlist Icon={PhoneIcon} name="Contact" link="/contact" />
           <Navlist Icon={LocationMarkerIcon} name="Location" link="/location" />
-          <Navlist Icon={PhotographIcon} name="Gallery" link="/gallery" />
+          <Navlist Icon={CalendarIcon} name="Events" link="/gallery" />
         </div>
       </div>
     </div>
