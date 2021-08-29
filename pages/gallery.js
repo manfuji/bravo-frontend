@@ -42,7 +42,22 @@ import e29 from "../public/events/e29.jpg";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Head from "next/head";
+import { useEffect, useState } from "react";
+import axios from "axios";
 function Gallery() {
+  const [data, getData] = useState({ post: [] });
+  useEffect(() => {
+    axios
+      .get("https://bravosfood.pythonanywhere.com/api/gallery/")
+      .then((res) => {
+        getData({
+          post: res.data,
+        });
+      })
+      .catch((err) => console.log(err));
+  }, []);
+  const slide = data.post;
+  console.log(slide);
   return (
     <div>
       <Navbar />
@@ -69,7 +84,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14 ml-4">
                   <div className="">
                     <Image src={S1} height="300" width="400" />
                   </div>
@@ -97,7 +112,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14 ml-4">
                   <div className="">
                     <Image src={Sa} height="300" width="400" />
                   </div>
@@ -125,7 +140,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2 xl:ml-14 ml-4">
                   <div className=" ">
                     <Image src={e21} height="300" width="400" />
                   </div>
@@ -213,6 +228,13 @@ function Gallery() {
                   <div className=" ">
                     <Image src={e20} height="300" width="400" />
                   </div>
+                  {slide.map((pro) => (
+                    <div>
+                      <div className=" ">
+                        <Image src={pro.picture} height="300" width="400" />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
