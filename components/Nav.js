@@ -21,10 +21,10 @@ function Nav() {
       <div className="mb-1">
         <Carousel fade prevLabel="" nextLabel="">
           {slide.map((pro) => (
-            <Carousel.Item style={{ height: "20%", width: "100%" }}>
+            <Carousel.Item style={{ height: "100%", width: "100%" }}>
               <img
                 key={pro.id}
-                style={{ height: "20%" }}
+                style={{ height: "90%" }}
                 className="d-block w-100"
                 src={pro.picture}
                 alt=""
