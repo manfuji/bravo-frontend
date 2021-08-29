@@ -69,7 +69,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 2xl:ml-12">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2">
                   <div className="">
                     <Image src={S1} height="300" width="400" />
                   </div>
@@ -97,7 +97,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 2xl:ml-12">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2">
                   <div className="">
                     <Image src={Sa} height="300" width="400" />
                   </div>
@@ -125,7 +125,7 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 2xl:ml-12">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 md:ml-2">
                   <div className=" ">
                     <Image src={e21} height="300" width="400" />
                   </div>
