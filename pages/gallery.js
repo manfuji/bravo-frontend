@@ -229,7 +229,7 @@ function Gallery() {
                     <Image src={e20} height="300" width="400" />
                   </div>
                   {slide.map((pro) => (
-                    <div>
+                    <div key={pro.id}>
                       <div className=" ">
                         <Image src={pro.picture} height="300" width="400" />
                       </div>
