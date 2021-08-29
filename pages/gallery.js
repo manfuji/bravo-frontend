@@ -65,7 +65,7 @@ function Gallery() {
             <meta property="og:url" content="www.bravosfoodgh.com/gallery" />
             <link rel="icon" href="/favi.ico" />
           </Head>
-          <div className="h-full w-screen bg-gray-100 flex flex-col text-center ml-4 md:ml-14 xl:ml-32 pb-10">
+          <div className="h-full w-screen bg-gray-100 flex flex-col text-center pb-10">
             <div className="mb-20 p-4">
               <div className="mb-4">
                 <h1 className=" uppercase text-xl md:2xl font-extrabold tracking-widest text-red-600">
