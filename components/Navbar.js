@@ -26,6 +26,10 @@ function Navbar() {
             <h1 className="font-bold md:text-4xl text-base text-red-700">
               BRAVOS FOOD
             </h1>
+            <p className="hidden md:inline-flex text-sm text-red-900 font-bold">
+              {" "}
+              Call: 0247130081
+            </p>
           </div>
         </div>
         <div className="flex flex-grow justify-end md:space-x-3 md:justify-evenly md:max-w-3xl">
