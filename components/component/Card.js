@@ -11,10 +11,10 @@ function Card({ Picture, title, price, id }) {
                 <Image src={Picture} className=" " width="350" height="300" />
               </div>
               <div className="flex flex-col mt-4 pl-2 justify-between">
-                <span className="text-black font-bold tracking-widest">
-                  {title}
+                <span className="text-black font-bold truncate">{title}</span>
+                <span className="font-medium text-red-700 w-40 md:truncate">
+                  {price}
                 </span>
-                <span className="text-lg font-bold text-red-700">{price}</span>
               </div>
             </a>
           </Link>

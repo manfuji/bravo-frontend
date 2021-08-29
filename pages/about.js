@@ -23,7 +23,7 @@ function About() {
         <div>
           <Navbar />
         </div>
-        <div className=" relative h-[350px] w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto mb-12">
+        <div className=" relative h-[200px] md:h-[350px] object-contain w-[300px] sm:w-[450px] md:w-[550px] lg:w-[900px] xl:w-[1000px] mx-auto mb-12">
           <Image src={banner} layout="fill" objectFit="cover" />
         </div>
         <div className="my-5 mx-8 w-7xl lg:mx-16 ">

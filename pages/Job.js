@@ -50,7 +50,7 @@ function Job() {
     <div>
       <Navbar />
       <div className="items-center md:w-full md:justify-center">
-        <blockquote className="mx-10 mt-10 ">
+        <blockquote className="mx-2 md:mx-10 mt-10 ">
           <h1 className="text-2xl text-red-600 font-extrabold text-center p-1">
             BRAVOS FOOD JOBS
           </h1>
@@ -62,9 +62,9 @@ function Job() {
             ‘’Bravo Meals’’ but foster talent development of our Human Capital
             who are our most important assets.
           </p>
-          <div className="mx-10">
+          <div className="mx-2">
             <p>
-              <h1 className="text-xl text-black font-extrabold">
+              <h1 className="text-xl text-black font-extrabold pt-4">
                 The Opportunity and Model
               </h1>
               As part of its social responsibility, Brovos Food is offering
@@ -82,14 +82,16 @@ function Job() {
             </p>
 
             <p>
-              <h1 className="text-xl text-black font-extrabold">Employment</h1>
+              <h1 className="text-xl text-black font-extrabold pt-4">
+                Employment
+              </h1>
               Successful Trainees will be employed at Golden Spoon Restaurants.
               The compensation package includes attractive salary, SSNIT,
               Insurance with fringe benefits.
             </p>
 
             <p>
-              <h1 className="text-xl text-black font-extrabold">
+              <h1 className="text-xl text-black font-extrabold pt-4">
                 Specialization
               </h1>
               <ol>
@@ -128,7 +130,9 @@ function Job() {
             </p>
 
             <p>
-              <h1 className="text-xl text-black font-extrabold">Attributes</h1>
+              <h1 className="text-xl text-black font-extrabold pt-4">
+                Attributes
+              </h1>
               <ol>
                 <li>
                   {" "}
@@ -151,7 +155,7 @@ function Job() {
             </p>
 
             <p>
-              <h1 className="text-xl text-black font-extrabold">
+              <h1 className="text-xl text-black font-extrabold pt-4">
                 Qualification
               </h1>
               <h2>Category 1 – Trainees (General)</h2>
@@ -220,10 +224,12 @@ function Job() {
               placeholder=" Qualification eg-- HND"
               className="h-12 w-52 md:w-96 md:h-20 rounded-md outline-none px-2"
             />{" "}
+            <p>Upload your CV or Resume </p>
             <input
               onChange={onChange}
               type="file"
               name="cv"
+              placeholder="CV"
               className="h-8 w-52 md:w-96 md:h-10 rounded-md outline-none px-2"
             />
             <br />
