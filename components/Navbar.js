@@ -11,7 +11,7 @@ import {
 import Link from "next/link";
 function Navbar() {
   return (
-    <div className="sticky top-0 z-50 min-w-full">
+    <div className="sticky top-0 z-50">
       <div className="flex justify-between pt-2 h-22 items-center bg-gray-200">
         <div className="ml-4 md:ml-6 mt-[3px]">
           <Link href="/">
