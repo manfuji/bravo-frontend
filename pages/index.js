@@ -1,12 +1,9 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Products from "../components/Products";
-import { BanIcon, FireIcon } from "@heroicons/react/solid";
 import Nav from "../components/Nav";
 import Maindish from "../components/Maindish";
 import Cards from "../components/Cards";
 import Footer from "../components/Footer";
-import Navigation from "../components/Navigation";
 export default function Home() {
   return (
     <div className="">
@@ -27,7 +24,7 @@ export default function Home() {
         <meta property="og:url" content="https://bravosfoodgh.com"></meta>
         <link rel="canonical" href="https://bravosfoodgh.com" />
         <meta name="format-detection" content="telephone=233247130081" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favi.ico" />
       </Head>
       <Navbar />
       <div className="">

@@ -1,15 +1,4 @@
-import S1 from "../public/locations/S1 (1).jpg";
-import S2 from "../public/locations/S1 (9).jpg";
-import S3 from "../public/locations/S1 (3).jpg";
-import S4 from "../public/locations/S1 (4).jpg";
-import S5 from "../public/locations/S1 (8).jpg";
-import Sa from "../public/locations/S2 (1).jpg";
-import Sb from "../public/locations/S2 (2).jpg";
-import Sc from "../public/locations/S2 (13).jpg";
-import Sd from "../public/locations/S2 (4).jpg";
-import Sf from "../public/locations/S2 (12).jpg";
 import Navbar from "../components/Navbar";
-import Image from "next/image";
 import Head from "next/head";
 function Location() {
   return (
@@ -25,7 +14,7 @@ function Location() {
         <meta property="og:site_name" content="BRAVOS FOOD - Location" />
         <meta property="og:type" content="food" />
         <meta property="og:url" content="www.bravosfoodgh.com/lcation" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favi.ico" />
       </Head>
       <div className="h-full w-full bg-gray-100 flex flex-col text-center pb-10">
         <Navbar />

@@ -30,8 +30,8 @@ function SingleProduct({
             </p>
           </div>
 
-          <div className="flex flex-row justify-between">
-            <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
+          <div className="flex flex-row justify-between p-2 space-x-6">
+            <button className="bg-red-700 py-2 px-6 md:px-10 md:mx-auto items-center rounded-md text-white font-medium">
               <a
                 className="text-white no-underline"
                 href="https://wa.me/233545992182"
@@ -41,7 +41,7 @@ function SingleProduct({
               </a>
             </button>
 
-            <button className="bg-red-700 py-2 px-6 items-center rounded-md text-white font-medium">
+            <button className="bg-red-700 md:hidden py-2 px-6 items-center rounded-md text-white font-medium">
               <a className="text-white no-underline" href="tel:233247130081">
                 {" "}
                 CALL

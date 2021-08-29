@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import banner from "../public/locations/S1 (9).jpg";
 import Footer from "../components/Footer";
+
 function About() {
   return (
     <div>
@@ -16,7 +17,7 @@ function About() {
         <meta property="og:site_name" content="BRAVOS FOOD About Us" />
         <meta property="og:type" content="food" />
         <meta property="og:url" content="www.bravosfoodgh.com/about" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favi.ico" />
       </Head>
       <div className="min-h-screen pb-12 w-full bg-gray-100 ">
         <div>

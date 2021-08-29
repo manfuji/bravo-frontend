@@ -2,7 +2,8 @@ import axios from "axios";
 import Head from "next/head";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import Navigation from "../components/Navigation";
+
+
 function Contact() {
   const initialState = {
     name: "",
@@ -47,7 +48,7 @@ function Contact() {
         <meta property="og:site_name" content="BRAVOS FOOD contact Us" />
         <meta property="og:type" content="food" />
         <meta property="og:url" content="www.bravosfoodgh.com/contact" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favi.ico" />
       </Head>
       <div className="min-h-screen pb-12 w-full bg-gray-100 ">
         <Navbar />
