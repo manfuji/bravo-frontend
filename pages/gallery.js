@@ -69,22 +69,22 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 2xl:ml-12">
                   <div className="">
-                    <Image src={S1} height="400" width="400" />
+                    <Image src={S1} height="300" width="400" />
                   </div>
 
                   <div className="">
-                    <Image src={S3} height="400" width="400" />
+                    <Image src={S3} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={S4} height="400" width="400" />
+                    <Image src={S4} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={S2} height="400" width="400" />
+                    <Image src={S2} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={S5} height="400" width="400" />
+                    <Image src={S5} height="300" width="400" />
                   </div>
                 </div>
               </div>
@@ -97,22 +97,22 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 2xl:ml-12">
                   <div className="">
-                    <Image src={Sa} height="400" width="400" />
+                    <Image src={Sa} height="300" width="400" />
                   </div>
 
                   <div className="">
-                    <Image src={Sb} height="400" width="400" />
+                    <Image src={Sb} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={Sf} height="400" width="400" />
+                    <Image src={Sf} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={Sc} height="400" width="400" />
+                    <Image src={Sc} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={Sd} height="400" width="400" />
+                    <Image src={Sd} height="300" width="400" />
                   </div>
                 </div>
               </div>
@@ -125,93 +125,93 @@ function Gallery() {
                 </h1>
               </div>
               <div>
-                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 mx-auto">
+                <div className="flex flex-col md:flex-row flex-wrap md:min-w-full space-y-2 md:space-x-2 w-80 2xl:ml-12">
                   <div className=" ">
-                    <Image src={e21} height="400" width="400" />
+                    <Image src={e21} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e22} height="400" width="400" />
+                    <Image src={e22} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e23} height="400" width="400" />
+                    <Image src={e23} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e24} height="400" width="400" />
+                    <Image src={e24} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e25} height="400" width="400" />
+                    <Image src={e25} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e26} height="400" width="400" />
+                    <Image src={e26} height="300" width="400" />
                   </div>{" "}
                   <div className="">
-                    <Image src={e27} height="400" width="400" />
+                    <Image src={e27} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e28} height="400" width="400" />
+                    <Image src={e28} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e29} height="400" width="400" />
+                    <Image src={e29} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e1} height="400" width="400" />
+                    <Image src={e1} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e2} height="400" width="400" />
+                    <Image src={e2} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e3} height="400" width="400" />
+                    <Image src={e3} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e4} height="400" width="400" />
+                    <Image src={e4} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e5} height="400" width="400" />
+                    <Image src={e5} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e6} height="400" width="400" />
+                    <Image src={e6} height="300" width="400" />
                   </div>{" "}
                   <div className="">
-                    <Image src={e7} height="400" width="400" />
+                    <Image src={e7} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e8} height="400" width="400" />
+                    <Image src={e8} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e9} height="400" width="400" />
+                    <Image src={e9} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e10} height="400" width="400" />
+                    <Image src={e10} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e11} height="400" width="400" />
+                    <Image src={e11} height="300" width="400" />
                   </div>{" "}
                   <div className="">
-                    <Image src={e12} height="400" width="400" />
+                    <Image src={e12} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e13} height="400" width="400" />
+                    <Image src={e13} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e14} height="400" width="400" />
+                    <Image src={e14} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e15} height="400" width="400" />
+                    <Image src={e15} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e16} height="400" width="400" />
+                    <Image src={e16} height="300" width="400" />
                   </div>{" "}
                   <div className="">
-                    <Image src={e17} height="400" width="400" />
+                    <Image src={e17} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e18} height="400" width="400" />
+                    <Image src={e18} height="300" width="400" />
                   </div>
                   <div className="">
-                    <Image src={e19} height="400" width="400" />
+                    <Image src={e19} height="300" width="400" />
                   </div>
                   <div className=" ">
-                    <Image src={e20} height="400" width="400" />
+                    <Image src={e20} height="300" width="400" />
                   </div>
                 </div>
               </div>
