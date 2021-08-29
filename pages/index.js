@@ -11,7 +11,11 @@ export default function Home() {
         <title>Bravos food - Restaurant in Ho, Volta Region</title>
         <meta
           name="description"
-          content="Bravos Food provide Healthy and Affordable foods to you anywhere just place an order"
+          content="Bravos Food provide Healthy and Affordable foods to you anywhere in HO"
+        />
+        <meta
+          name="keywords"
+          content="food,bravos bravosfood,bravo burger, bravosfoodgh, restaurant,bravo,restaurants near me,food near me,fast food near me,burger near me,pizza near me,burger king near me"
         />
         <meta property="og:title" content="Bravos Food is at your service" />
         <meta property="og:site_name" content="BRAVOS FOOD" />
@@ -21,7 +25,7 @@ export default function Home() {
           content="Restaurant in Ho, Volta Region"
         ></meta>
         <meta property="og:url" content="www.bravosfoodgh.com" />
-        <meta property="og:url" content="https://bravosfoodgh.com"></meta>
+        <meta property="og:url" content="https://bravosfoodgh.com" />
         <link rel="canonical" href="https://bravosfoodgh.com" />
         <meta name="format-detection" content="telephone=233247130081" />
         <link rel="icon" href="/favi.ico" />
