@@ -46,7 +46,7 @@ function Gallery() {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen w-screen bg-gray-100 text-center text-2xl font-bold text-red-700">
+      <div className="min-h-screen w-full bg-gray-100 text-center text-2xl font-bold text-red-700">
         <div>
           <Head>
             <title>Bravo - Gallery</title>
@@ -60,7 +60,6 @@ function Gallery() {
             <meta property="og:type" content="food" />
             <meta property="og:url" content="www.bravosfoodgh.com/gallery" />
             <link rel="icon" href="/favi.ico" />
-
           </Head>
           <div className="h-full w-full bg-gray-100 flex flex-col text-center pb-10">
             <div className="mb-16 mt-12 p-4">
