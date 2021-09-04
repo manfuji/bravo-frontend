@@ -42,6 +42,11 @@ function Contact() {
           content="Bravos Food is Food restaurant located in Ho providing service all over the capital of the volta region"
         />
         <meta
+          name="keywords"
+          content="bravosfoodgh,bravosfood contact us, Volta region restaurants, Ho restaurants, Pizza, Golden Spoon Restaurants, Restaurant near me, 
+          fast food near me, Ahoe Satellite Market Shopping Center"
+        />
+        <meta
           property="og:title"
           content="Bravos Food contact us in on: 0596011743 or 0247130081 or 0500856550 "
         />

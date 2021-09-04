@@ -13,6 +13,10 @@ function About() {
           name="description"
           content="Bravos Food is Food restaurant located in Ho providing service all over the capital of the volta region"
         />
+        <meta
+          name="keywords"
+          content="bravosfoodgh,bravosfood restaurant - food, Volta region restaurants, Ho restaurants, Pizza, Golden Spoon Restaurants"
+        />
         <meta property="og:title" content="Bravos Food is at your service" />
         <meta property="og:site_name" content="BRAVOS FOOD About Us" />
         <meta property="og:type" content="food" />
