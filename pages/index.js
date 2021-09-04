@@ -17,6 +17,7 @@ export default function Home() {
           name="keywords"
           content="food,bravos bravosfood,bravo burger,bravos food restaurant, bravosfoodgh, restaurant,bravo,restaurants near me,food near me,fast food near me,burger near me,pizza near me,burger king near me"
         />
+        <meta name="google-site-verification" content="vqsh9E1ZTWscTCsq1hhaUdwedQefp4Pg-pqWhpRXn24" />
         <meta property="og:title" content="Bravos Food is at your service" />
         <meta property="og:site_name" content="BRAVOS FOOD" />
         <meta property="og:type" content="website" />
