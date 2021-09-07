@@ -13,7 +13,7 @@ function Card({ Picture, title, price, id }) {
               <div className="flex flex-col mt-4 pl-2 justify-between">
                 <span className="text-black font-bold truncate">{title}</span>
                 <span className="font-medium text-red-700 w-40 md:truncate">
-                  {price}
+                  Ghc {price}
                 </span>
               </div>
             </a>
