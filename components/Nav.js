@@ -15,7 +15,7 @@ function Nav() {
       .catch((err) => console.log(err));
   }, []);
   const slide = data.post;
-  console.log(slide);
+  // console.log(slide);
   return (
     <div>
       <div className="mb-1">

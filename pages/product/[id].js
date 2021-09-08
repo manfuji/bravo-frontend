@@ -8,7 +8,7 @@ function SingleProduct({
   price,
   other_price,
 }) {
-  console.log(Product_name, description);
+  // console.log(Product_name, description);
   return (
     <div className="bg-gray-100 min-h-screen  min-w-full items-center">
       <Navbar />
