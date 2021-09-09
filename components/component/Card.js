@@ -8,7 +8,7 @@ function Card({ Picture, title, price, id }) {
           <Link href={`product/${id}`}>
             <a className="no-underline hover:text-blue-700 focus:text-blue-800">
               <div className="object-contain">
-                <Image src={Picture} className=" " width="350" height="300" />
+                <Image src={Picture} className=" " width="320" height="300" />
               </div>
               <div className="flex flex-col mt-4 pl-2 justify-between">
                 <span className="text-black font-bold truncate">{title}</span>

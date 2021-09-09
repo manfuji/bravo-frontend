@@ -11,14 +11,19 @@ export default function Home() {
         <title>Bravos food - Restaurant in Ho, Volta Region</title>
         <meta
           name="description"
-          content="Bravos Food provide Healthy and Affordable foods to you anywhere in HO"
+          content="Bravos Food is Restaurant in Ho, that provide Healthy and Affordable foods to you anywhere in HO 
+          : We have pizza, burger, Fried rice, shawarma, hamburger. We are open on Monday to Friday from 8:30 AM to 11:00 PM,
+          Saturday and Sunday from 11:00 AM to 11:00 PM "
         />
         <meta
           name="keywords"
           content="bravosfoodgh,bravosfood restaurant - food, bravo, bravosfood,bravo burger,bravos food restaurant, restaurant,bravo,restaurants Ho,food Ho,fast food Ho,burger near me,
           restaurants nearby, pizza Ho, burger king Ho"
         />
-        <meta name="google-site-verification" content="vqsh9E1ZTWscTCsq1hhaUdwedQefp4Pg-pqWhpRXn24" />
+        <meta
+          name="google-site-verification"
+          content="vqsh9E1ZTWscTCsq1hhaUdwedQefp4Pg-pqWhpRXn24"
+        />
         <meta property="og:title" content="Bravos Food is at your service" />
         <meta property="og:site_name" content="BRAVOS FOOD" />
         <meta property="og:type" content="website" />
@@ -33,10 +38,10 @@ export default function Home() {
         <link rel="icon" href="/favi.ico" />
       </Head>
       <Navbar />
-      <div className="">
+      <div className=" min-w-full">
         <Nav />
       </div>
-      <main className="w-full">
+      <main className="min-w-full">
         {/*<section className="pt-6">
       <Navigation />
       <h1 className="font-bold text-4xl text-gray-900 text-center">
